@@ -1,0 +1,145 @@
+/* Universal Styles */
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: SeaShell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: SeaShell;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+/* Header */
+
+header {
+  display: flex;
+  align-items: center;
+  height: 69px;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid SeaShell;
+  background-color: black;
+  width: 100%;
+  top: 0;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Main Content */
+
+.content {
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+/* Mission */
+
+.mission.image-content {
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+}
+
+.mission-banner h2 {
+  align-items: center;
+  background-color: black;
+  width: 1200px;
+  margin: 0;
+  padding: 10px 10px;
+  height: 30px;
+}
+
+.mission-banner h4 {
+  display: block;
+  background-color: black;
+  margin: 0;
+  padding: 10px 10px;
+  height: 30px;
+}
+
+ /* Featured */
+.featured.image-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin: auto;
+}
+
+.picture img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.picture h4 {
+  margin-top: 10px;
+}
+
+/* Locations */
+
+.locations {
+  display: block;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.locations h2 {
+  padding-top: 30px;
+}
+
+.container {
+  display: flex ;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  padding: 10px;
+  margin: 5px 20px;
+
+}
+
+/* Footer */
+
+footer {
+  height: 200px;
+}
+
+.copyright {
+  float: left;
+  padding-left: 20px;
+}
